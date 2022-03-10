@@ -6,24 +6,22 @@
       dark
     >
       <div class="d-flex align-center">
-      TEST1
+      APP TEST 1
       </div>
-
       <v-spacer></v-spacer>
-
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/FlorencioQuelca/Test1.git"
         target="_blank"
         text
       >
-        <span class="mr-2">github florencio</span>
+        <span class="mr-2">github of florencio Quelca</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
-      
-    </v-app-bar>
-
-    <v-main>
+      </v-app-bar>
+    <v-main class="grey lighten-2">
+      <v-container>
       <router-view/>
+      </v-container>
     </v-main>
   </v-app>
 </template>

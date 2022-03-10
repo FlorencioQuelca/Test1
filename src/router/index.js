@@ -19,7 +19,27 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
+  {
+    path: '/movie',
+    name: 'Movie',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/movieform.vue')
+    }
+  },
+  {
+    path: '/movie/:id/view',
+    name: 'Movie.view',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/movieform.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

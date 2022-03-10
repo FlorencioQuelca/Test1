@@ -9,14 +9,8 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome TEST 1
         </h1>
-
      
       </v-col>
-
-    
-
-
-      
 
     </v-row>
   </v-container>
